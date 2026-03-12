@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Dados da Planilha Excel</title>
+    
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    
+    h1, h2 {
+        color: #333;
+    }
+    
+    ul, ol {
+        background: white;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    li {
+        margin: 10px 0;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+    
+    ol li {
+        list-style-type: decimal;
+    }
+    
+    ul li {
+        list-style-type: disc;
+    }
+    
+    .secao {
+        margin-bottom: 30px;
+    }
+    </style>
+    </head>
+    
+    <body>
+    
+    <h1>Dados da Planilha Excel: Pedidos do Dia</h1>
+    
+    <div class="secao">
+    <h2>Lista Não Ordenada (Itens Disponíveis)</h2>
+    <ul>
+    <li>Produto A - Estoque: 50 unid.</li>
+    <li>Produto B - Estoque: 30 unid.</li>
+    <li>Produto C - Estoque: 100 unid.</li>
+    <li>Produto D - Preço: R$ 25,00</li>
+    </ul>
+    
+    </body>
+    </html>
+    <h2>Lista Ordenada (Passos do Pedido)</h2>
+    <ol>
+    <li>Receber pedido do cliente</li>
+    <li>Verificar estoque na planilha</li>
+    <li>Processar pagamento</li>
+    <li>Enviar confirmação por e-mail</li>
+    </ol>
+    </div>
+    </body>
+    </html>
+        </body>
+</html>
